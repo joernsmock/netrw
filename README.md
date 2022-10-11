@@ -1,9 +1,12 @@
 # netrw
-Make longlist (w/file sizes&amp;dates) right-aligned (easyier to read)
+Make file sizes in a longlist (w/file sizes&amp;dates) right-aligned (easyier to read)
 
 I took netrw.vim today (in /usr/share/vim/vim90/autoload), copied it to ~/.vim/autoload and added a line (#11090)
 
-    let sz   = printf("%15S", sz)
+11087a11089,11091
+> " +++ make sz right-aligned
+>     let sz   = printf("%15S", sz)
+> " +++
     
 to make the file list (when the 'long' listing format shows file sizes) having right-aligned file-sizes. Before, it looked like:
 
