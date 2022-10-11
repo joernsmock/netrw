@@ -1,7 +1,7 @@
 # netrw
 Make longlist (w/file sizes&amp;dates) right-aligned (easyier to read)
 
-I took netrw.vim today (in /usr/share/vim/vim90/autoload), copied it to ~/.vim/autoload and added a line
+I took netrw.vim today (in /usr/share/vim/vim90/autoload), copied it to ~/.vim/autoload and added a line (#11090)
 
     let sz   = printf("%15S", sz)
     
